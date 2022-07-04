@@ -3,14 +3,16 @@ import React from "react"
 
 export default function Main() {
     return (
-        <main>
-            <h1 className="main--title">Fun Facts about React</h1>
-            <ul className="main--facts">
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has over 100k stars on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thouslands of enterprise apps, including mobile apps</li>
+        <main className="main white-text">
+            <ul>
+                <li className="main-about">
+                    <h1 className="about-title" >About</h1>
+                    <p className="about-text">I'm a nerd, love to build and automate tasks.</p>
+                </li>
+                <li className="main-interest">
+                    <h1 className="interests-title">Interest</h1>
+                    <p className="interests-text">Travel around the world. Open busineses. Meet people and get to know different culture.</p>
+                </li>
             </ul>
         </main>
     )

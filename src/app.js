@@ -1,14 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Header from "./components/header"
+import Bio from "./components/bio"
 import Footer from "./components/footer"
 import Main from "./components/main"
 
 
 export default function App() {
     return (
-        <div>
-            <Header />
+        <div className="card">
+            <Bio />
             <Main />
             <Footer />
         </div>
