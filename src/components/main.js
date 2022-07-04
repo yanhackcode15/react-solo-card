@@ -11,7 +11,7 @@ export default function Main() {
                 </li>
                 <li className="main-interest">
                     <h1 className="interests-title">Interest</h1>
-                    <p className="interests-text">Spicy food, writing code, automation, travel, friends, designing and building homes and parenting my two wonderful children, and many more...</p>
+                    <p className="interests-text">Spicy food, writing code, automation, travel, friends, designing and building homes, parenting my two wonderful children and husband, and many more...</p>
                 </li>
             </ul>
         </main>
