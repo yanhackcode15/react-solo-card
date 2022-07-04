@@ -1,13 +1,14 @@
 
 import React from "react"
 import headshot from "../images/headshot.png"
-import emailIcon from "../images/Email-Icon.png"
-import linkedinIcon from "../images/linkedin-Icon.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+
 
 export default function Bio () {
     return (
         <header className="bio">
-                <div>
+                <div className="headshot">
                 <img src={headshot} className="headshot" />
                 </div>
                 <div className="center intro">
@@ -17,8 +18,8 @@ export default function Bio () {
                     <a href="https://programming90days.godaddysites.com/"><span className="website white-text">My Website</span></a>
                     </div>
                     <div className="buttons">
-                        <button className="email-button button"><img src={emailIcon}/><span className="button-text">Email</span></button>
-                        <button className="linkedin-button button white-text"><img src={linkedinIcon}/><span className="button-text">LinkedIn</span></button>
+                        <button className="email-button button"><FontAwesomeIcon icon={solid('envelope')} /><span className="button-text">Email</span></button>
+                        <button className="linkedin-button button white-text"><FontAwesomeIcon icon={brands('linkedin')} /><span className="button-text">LinkedIn</span></button>
                     </div>
                 </div>
                 
