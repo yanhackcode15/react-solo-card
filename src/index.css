@@ -2,8 +2,10 @@
 
 * {
     box-sizing: border-box; 
-
+    margin: 0;
+    padding: 0;
 }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -61,10 +63,12 @@ html, body {
 .about-title, .interests-title {
     font-size: 16px;
     font-weight: bold;
+    margin: 10px 0px 5px 0px;
 }
 
 .about-text, .interests-text {
     font-size: 10px;
+    margin-top: 0px;
 }
 .bio {
     align-content: center;
@@ -97,16 +101,9 @@ html, body {
 
 ul {
     list-style: none;
-    padding-left: 0;
 }
 
-.about-title, .interests-title{
-    margin-bottom: 0px;
-}
 
-.about-text, .interests-text {
-    margin-top: 3px;
-}
 .footer {
     background-color: #161619;
     bottom: 0px;
